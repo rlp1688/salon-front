@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Appointments from './Appointment.jsx';
-import MyBookings from './MyBookings.jsx';
+import MyBookings from './mybookings.jsx';
 import ServiceCatalog from './components/ServiceCatalog.jsx';
 
 function Dashboard({ userSession, handleLogout }) {
