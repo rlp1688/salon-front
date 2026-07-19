@@ -55,7 +55,7 @@ const Login = ({ setUserSession }) => {
         setMessage('Login successful! Redirecting...');
         
         setTimeout(() => {
-          window.location.href = '/';
+         setMessage('Login successful!');
         }, 1500);
         
       } else {
